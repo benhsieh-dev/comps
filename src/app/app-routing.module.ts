@@ -10,6 +10,10 @@ const routes: Routes = [
   { path: 'elements', loadChildren: () => 
   import('./elements/elements.module').then((m)=> m.ElementsModule)
 },
+
+  { path: 'views', loadChildren: () => 
+  import('./views/views.module').then((m)=> m.ViewsModule)
+},
   { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent }
 ];
