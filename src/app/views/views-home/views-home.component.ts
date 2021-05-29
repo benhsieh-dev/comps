@@ -13,8 +13,16 @@ export class ViewsHomeComponent implements OnInit {
   ];
 
   items = [
-    { image: "/assets/images/2-tier-heart-shaped-cake.jpg", title: '2 Tier Heart Shaped Cake', description: "Engagement Cake"},
-    { image: "/assets/images/wine-cake.jpg", title: 'Wine Cake', description: 'Party Cake'}
+    {
+      image: "/assets/images/2-tier-heart-shaped-cake.jpg",
+      title: "2 Tier Heart Shaped Cake",
+      description: "Engagement Cake",
+    },
+    {
+      image: "/assets/images/peppa-pig-cake.jpg",
+      title: "Peppa Pig Cake",
+      description: "Peppa Pig Cake",
+    },
   ];
 
   constructor() {}
