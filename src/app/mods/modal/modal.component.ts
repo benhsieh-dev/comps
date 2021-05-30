@@ -1,3 +1,4 @@
+import { ElementRef } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModalComponent implements OnInit {
 
-  constructor() { }
+  constructor(private el: ElementRef) {}
 
   ngOnInit(): void {
+    document.body.appendChild(this.el.nativeElement); 
   }
 
 }
