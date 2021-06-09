@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ModsHomeComponent implements OnInit {
 
   modalOpen = false;
+  items = [
+    {title: 'C#', content: 'ASL'},
+    {title: 'Java', content: 'ISL'},
+    {title: 'SQL Server', content: 'OnBase'}
+  ];
 
   constructor() { }
 
